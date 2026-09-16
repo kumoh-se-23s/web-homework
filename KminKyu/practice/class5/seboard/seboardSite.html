@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="seboardSite.css">
+</head>
+<body>
+    <h1>커뮤니티</h1>
+    <ul>
+        <li>공지사항</li>
+        <li>취업게시판</li>
+        <li>학과행사</li>
+        <li>수상실적</li>
+    </ul>
+    <h1>공지사항</h1>
+    <p>총 107건의 자료가 있습니다. (<span style="color:orange">1</span>/11페이지)</p>
+    <div>
+        <select id = "search_type">
+            <option value = "all" selected>전체</option>
+            <option value = "t1">수업</option>
+            <option value = "t2">장학</option>
+        </select>
+        <input id = "search_text" type="text" placeholder="검색어를 입력하세요">
+        <input id = "search_button" type ="button" value="검색">
+    </div>
+    <table class = "board">
+        <thead id = "board_head">
+            <tr>
+                <th>번호</th>
+                <th colspan="2">제목</th>
+                <th>첨부 작성자</th>
+                <th>등록일</th>
+                <th>조회수</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>107</td>
+                <td style="color:#B22222">[수업]</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sunt?</td>
+                <td>Lorem ipsum.</td>
+                <td>Lorem ipsum.</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>107</td>
+                <td style="color:#228b22">[장학]</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sunt?</td>
+                <td>Lorem ipsum.</td>
+                <td>Lorem ipsum.</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>107</td>
+                <td style="color:#0066B3">[특강]</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sunt?</td>
+                <td>Lorem ipsum.</td>
+                <td>Lorem ipsum.</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>107</td>
+                <td style="color:#ff8000">[교내행사]</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sunt?</td>
+                <td>Lorem ipsum.</td>
+                <td>Lorem ipsum.</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class = "page">
+        <a>1</a>
+        <a>2</a>
+        <a>3</a>
+        <a>4</a>
+        <a>5</a>
+        <a>6</a>
+        <a>7</a>
+        <a>8</a>
+        <a>9</a>
+        <a>10</a>
+        <a>></a>
+        <a>>></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+ul{
+    list-style-type: none;
+    width: 300px;
+}
+li:hover{
+    background-color : #FF8D3F;
+    color : #FFFFFF;
+}
+li{
+    background-color : lightgray;
+}
+#search_text:focus{
+    background-color : #c8def0;
+}
+#search_button:hover{
+    background-color : #2c44f3;
+}
+#search_button{
+    background-color : #339AF0;
+    color: #FFFFFF;
+}
+#board_head{
+    color: #FFFFFF;
+    background-color: #056186
+}
+table{
+    border-collapse: collapse;
+}
+tbody tr:hover{
+    color: #056186;
+}
+tbody tr:nth-child(2n){
+    background-color: #00000033;
+}
+div.page a:hover{
+    color: #339AF0;
+}
+div.page a{
+    border: 1px solid #000000;
+    text-decoration: underline;
+}

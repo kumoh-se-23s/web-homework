@@ -1,0 +1,23 @@
+
+input:focus {
+    background-color: green;
+}
+a{
+    text-decoration : none;
+}
+a:hover{
+    background-color: yellow;
+    color: red;
+}
+h1 { font-size: 2.5rem; color:rgba(255,0,0,5)}  /* 40px */
+h2 { font-size: 2rem; }    /* 32px */
+p  { font-size: 1rem; }    /* 16px */
+small { font-size: 0.875rem; } /* 14px */
+div {
+    display: flex;
+    justify-content: center;  /* 가로 중앙 */
+    align-items: center;      /* 세로 중앙 */
+    width: 300px;
+    height: auto; /* 높이가 동적일 때 */
+    line-height:100px;
+}
