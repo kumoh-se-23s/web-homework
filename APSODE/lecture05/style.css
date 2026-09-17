@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+    height: 90px;
+    line-height: 90px;
+}
+a:visited {
+    color: black;
+}
+
+h1 {
+    vertical-align: top;
+}
+
+div {
+    display: inline-block;
+}
+
+div.hd_content {
+    border: 1px solid;
+    height: 90px;
+}
+
+div.hd_content > div{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div.logo {
+    vertical-align: top;
+    border: 1px solid;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li.dp1{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+
+    line-height: 90px;
+    height: 90px;
+
+    width: 100px;
+    border: 1px solid;
+
+    float: left;
+}
+
