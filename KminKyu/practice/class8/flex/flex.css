@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    height: 90px;
+    line-height: 90px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+ul {
+  list-style-type: none;
+}
+div,
+ul,
+li {
+  border: 1px solid black;
+}
+.hd_fixed {
+    max-width: 1170px;
+    margin: 10px auto;
+
+.hd_content{
+    display: flex;
+    justify-content: flex-start;
+}
+}
+.hd_content .logo {
+    width: 170px;
+}
+.hd_content .gnb_menu {
+    width: 900px;
+    justify-content: center;
+}
+
+ul {
+    display:flex;
+    justify-content: center;
+
+}
+
+li {
+    width:13%;
+
+}
+
+
