@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 2em;
+    font-size: 2rem;
+
+    text-align: center;
+}
+
+
+div.container {
+    max-width: 1200px;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    height: 300px;
+}
+
+aside {
+    flex-basis: 200px;
+    flex-shrink: 0;
+    padding: 10px;
+}
+article {
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 10px;
+    min-width: 200px;
+}
+
+footer {
+    padding: 1em;
+    text-align: center;
+}
