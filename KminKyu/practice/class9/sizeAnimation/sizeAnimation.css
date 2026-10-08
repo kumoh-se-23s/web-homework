@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 270px;
+  height: 335px;
+  background-color: #ddd;
+}
+.container .item-img img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+.container .item-text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container:hover img{
+    transform: scale(1.2);
+}
+
+.item-img {
+    overflow:hidden
+}
